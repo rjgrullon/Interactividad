@@ -56,9 +56,6 @@ form{
     cursor: pointer;
     height:80px;
     width:14.28%;
-    
-    
-
 }
 
 .dia{
@@ -310,4 +307,18 @@ padding:none;
 	border-right: purple 6px solid;
 
 
+}
+
+/*----------------------Responsive----------------------*/
+@media only screen and (max-width: 500px) {
+	form{
+	clear:both;
+	width:100%;
+	height:40px;
+	background-color: black;
+}
+.dia{
+	height: 60px;
+}
+   
 }
